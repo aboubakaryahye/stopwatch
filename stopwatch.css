@@ -1,0 +1,32 @@
+.container{
+	display: block;
+	text-align: center;
+	font-size: 50px;
+
+}
+.btn {
+    background-color: #4CAF50; /* Green background */
+    border: none;             /* Remove border */
+    color: white;             /* White text */
+    padding: 15px 32px;       /* Some padding */
+    text-align: center;       /* Center the text */
+    text-decoration: none;    /* Remove underline (if link) */
+    display: inline-block;    /* Make the buttons inline */
+    font-size: 16px;          /* Increase font size */
+    margin: 10px 5px;         /* Add some space around buttons */
+    cursor: pointer;          /* Add a pointer cursor on hover */
+    border-radius: 8px;       /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background change on hover */
+}
+
+.btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.btn button:nth-last-child(1){
+	background-color: red;
+	border:none;
+}
+.btn button:nth-last-child(2){
+	background-color: blue;
+	border:none;
+}
